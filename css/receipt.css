@@ -1,0 +1,46 @@
+/*GENERAL CSS*/
+hr {
+    border: 1px solid black;
+    width: 80%;
+}
+h2 {
+    text-align: center;
+}
+/*RECEIPT COLUMNS CSS*/
+.left {
+    width: 48%;
+    text-align: right;
+}
+.right {
+    width: 49%;
+}
+/*RECEIPT CSS*/
+.receipt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    border: 1px solid black;
+    width: 65%;
+}
+/*TITLE CSS*/
+.title {
+    text-align: center;
+}
+.title img {
+    max-width: 40%;
+}
+/*CUSTOMER INFORMATION CSS*/
+.customer_information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*PIZZA INFORMATION CSS*/
+.pizza_information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
